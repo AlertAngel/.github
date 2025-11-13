@@ -1,16 +1,21 @@
 # AlertAngel
 
-AlertAngel is a product that aims to make monitoring Elderly patients a breeze.
+AlertAngel is an elderly-care monitoring system that provides real-time health tracking, fall detection, and instant alerts for caregivers.
 
-It consists of : 
+## What It Does
+- Continuous monitoring of **heart rate**, **SpO₂**, **temperature**, and **motion**
+- **Fall detection** with immediate alerts
+- Simple **on-device display** for vitals and warnings
+- **Medicine reminders** and **cognitive test buttons**
+- Notifications through **Telegram** and a **mobile app**
+- **Health data logging** for future review
+- System alerts like **low battery** and **phone disconnected**
 
-1. A screen for easy visual aid or to display emergency information.
-2. Buttons for Cognitive tests and Navigation
-3. Sensors to monitor vitals.
-4. Microcontroller (ESP32) for processing
-5. Communication via Telegram for ease of use.
-6. Medicine Alerts
-7. Mobile app to set alerts and make any changes.
-8. More alerts include Low charge Alert, Phone not connected alert etc.
+## How It Works
+The ESP32 collects sensor data, checks for irregularities, updates the display, and sends instant notifications to caregivers.
 
-Check out [Tech stack](https://github.com/AlertAngel/tech_stack) for more detailed technical details.
+## Why It Matters
+AlertAngel offers an affordable, easy-to-use solution for families and caregivers needing reliable, continuous elderly monitoring.
+
+👉 For full technical details, visit:  
+**[https://github.com/AlertAngel/tech_stack](https://github.com/AlertAngel/tech_stack)**
