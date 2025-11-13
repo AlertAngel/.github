@@ -1,12 +1,16 @@
-## Hi there 👋
+# AlertAngel
 
-<!--
+AlertAngel is a product that aims to make monitoring Elderly patients a breeze.
 
-**Here are some ideas to get you started:**
+It consists of : 
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+1. A screen for easy visual aid or to display emergency information.
+2. Buttons for Cognitive tests and Navigation
+3. Sensors to monitor vitals.
+4. Microcontroller (ESP32) for processing
+5. Communication via Telegram for ease of use.
+6. Medicine Alerts
+7. Mobile app to set alerts and make any changes.
+8. More alerts include Low charge Alert, Phone not connected alert etc.
+
+Check out [Tech stack](https://github.com/AlertAngel/tech_stack) for more detailed technical details.
