@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./logo_full.png" />
+</p>
+
 # AlertAngel
 
 AlertAngel is an elderly-care monitoring system that provides real-time health tracking, fall detection, and instant alerts for caregivers.
