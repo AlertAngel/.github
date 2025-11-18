@@ -23,3 +23,37 @@ AlertAngel offers an affordable, easy-to-use solution for families and caregiver
 
 👉 For full technical details, visit:  
 **[https://github.com/AlertAngel/tech_stack](https://github.com/AlertAngel/tech_stack)**
+
+## Workflow 
+
+```mermaid 
+graph TD
+    Start([System Start]) --> Init[Initialize ESP32 and Sensors]
+    Init --> Collect[Data Collection Loop]
+    
+    Collect --> Sensors{Read Sensors}
+    Sensors --> HR[Heart Rate and SpO2]
+    Sensors --> Temp[Body Temperature]
+    Sensors --> Motion[Motion Detection]
+    
+    HR --> Check{Check Values}
+    Temp --> Check
+    Motion --> Check
+    
+    Check -->|Normal| Normal[Normal Status]
+    Check -->|Alert| Critical[Critical Alert]
+    
+    Critical --> Buzzer[Sound Alarm]
+    Critical --> Notify[Send Notification]
+    
+    Notify --> App[Mobile App]
+    Notify --> Message[Telegram Message]
+    
+    Normal --> Log[Save Data]
+    App --> Log
+    Message --> Log
+    
+    Log --> Wait[Wait]
+    Wait --> Collect
+```
+
