@@ -6,6 +6,10 @@
 
 AlertAngel is an elderly-care monitoring system that provides real-time health tracking, fall detection, and instant alerts for caregivers.
 
+## Form factor 
+
+**AlertAngel** devices are inspired by the GitHub Universe ID Cards i.e AlertAngel devices are also ID cards with a screen.
+
 ## What It Does
 - Continuous monitoring of **heart rate**, **SpO₂**, **temperature**, and **motion**
 - **Fall detection** with immediate alerts
