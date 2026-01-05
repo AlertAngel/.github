@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./profile/logo_full.png" />
+  <img src="./logo_full.png" />
 </p>
 
 # AlertAngel
